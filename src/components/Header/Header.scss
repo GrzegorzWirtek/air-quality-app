@@ -1,0 +1,13 @@
+@import '../../scss/variables.scss';
+
+.header{
+  text-align: center;
+  color: white;
+  height: 200px;
+  background: $header-bcg-color;
+  &__title{
+    margin-top: 45px;
+    font-size: $header-font-size;
+    font-weight: 500;
+  }
+}

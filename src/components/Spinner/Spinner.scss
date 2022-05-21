@@ -1,0 +1,18 @@
+.spinner{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.834);
+  z-index: 2;
+
+  &__text{
+    font-size: 1.4rem;
+    font-weight: 600;
+    transform: translateY(-10vh);
+  }
+}

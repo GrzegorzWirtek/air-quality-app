@@ -1,0 +1,168 @@
+@import '../../scss/variables.scss';
+
+.main{
+  flex-grow: 1;
+}
+
+.main__city{
+  text-align: center;
+  margin: 20px $main-margin-horizontal $main-margin-horizontal $main-margin-horizontal;
+  font-size: 1.8rem;
+  
+  @media (min-width: $min-width){
+    max-width: $main-max-width;
+    margin: 30px $main-margin-horizontal $main-margin-horizontal $main-margin-horizontal;
+    text-align: left;
+  }
+
+  @media (min-width: $main-max-width-horizontal){
+    margin: 30px auto $main-margin-horizontal auto;
+  }
+}
+
+.main__time{
+  text-align: center;
+  font-weight: 500;
+
+  @media (min-width: $min-width){
+    max-width: $main-max-width;
+    text-align: left;
+    margin:0 $main-margin-horizontal;
+  }
+
+  @media (min-width: $main-max-width-horizontal){
+    margin: 0 auto;
+  }
+}
+
+.main__no-info{
+  padding: $main-margin-horizontal;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.main__aq{
+  display: grid;
+  grid-template: 100px 1fr/ 100px auto;
+  gap: 10px;
+  margin: 20px $main-margin-horizontal;
+  padding: 20px 12px;
+
+  @media (min-width: $medium-width){
+    margin: 20px $main-margin-horizontal;
+    max-width: $main-max-width;
+  }
+
+  @media (min-width: $main-max-width-horizontal){
+    margin: 20px auto;
+  }
+
+  &-value{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: $aq-darken-color;
+
+    &-number{
+      flex-basis: 100%;
+      text-align: center;
+      font-size: 2rem;
+      color: white;
+    }
+
+    &-text{
+      flex-basis: 100%;
+      text-align: center;
+      font-size: 0.7rem;
+      font-weight: 300;
+      color: white;
+    }
+  }
+
+  &-index{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+  }
+
+  &-info{
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+}
+
+.main__weather{
+  display: flex;
+  flex-wrap: wrap;
+  margin: $main-margin-horizontal;
+  padding: $main-margin-horizontal;
+  background-color: $weather-bcg-color;
+  align-items: center;
+
+  @media (min-width: $min-width){
+    margin: 0 $main-margin-horizontal;
+    max-width: $main-max-width;
+    justify-content: center;
+  }
+
+  @media (min-width: $main-max-width-horizontal){
+    margin: 0 auto;
+  }
+}
+
+.main__icon{
+  width: 40%;
+  max-width: 140px;
+  height: 126px;
+}
+
+.main__temp-wrapper{
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  padding-left: 10px;
+  align-content: center;
+
+  @media (min-width: $min-width){
+   flex-basis: auto;
+  }
+}
+
+.main__temp{
+  flex-basis: 42%;
+  max-width: 80px;
+  font-size: 2rem;
+  font-weight: 600;
+
+  &-span{
+    display: inline-block;
+    transform: translateY(-14px);
+    font-weight: 400;
+  }
+}
+
+.main__wind-direction{
+  height: 50px;
+}
+
+.main__wind-speed{
+  flex-basis: 100%;
+}
+
+.main__parameters{
+  padding: $main-margin-horizontal;
+}
+
+.main__pressure{
+  margin-bottom: 8px;
+}
+
+
+

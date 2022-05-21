@@ -147,34 +147,34 @@ export const CITIES: CitiesT = [
 
 export const INFO = [
 	{
-		index: 'Dobra (0-50)',
+		index: 'Dobra',
 		color: '#abcf65',
-		info: 'Jakość powietrza jest zadowalająca i stanowi niewielkie zagrożenie dla zdrowia lub nie stanowi go wcale. Zaleca się wietrzenie domu. Spędzaj czas na świeżym powietrzu. Zaleca się otwarcie okien i przewietrzenie domu, aby doprowadzić świeże, bogate w tlen powietrze.',
+		info: '(0-50) Jakość powietrza jest zadowalająca i stanowi niewielkie zagrożenie dla zdrowia lub nie stanowi go wcale. Zaleca się wietrzenie domu. Spędzaj czas na świeżym powietrzu. Zaleca się otwarcie okien i przewietrzenie domu, aby doprowadzić świeże, bogate w tlen powietrze.',
 	},
 	{
-		index: 'Umiarkowana (51-100)',
+		index: 'Umiarkowana',
 		color: '#f5d55a',
-		info: 'Jakość powietrza jest akceptowalna i stanowi niewielkie zagrożenie dla zdrowia. Osoby starsze i wrażliwe powinny unikać aktywności na świeżym powietrzu, ponieważ mogą odczuwać dolegliwości ze strony układu oddechowego. Osoby starsze i wrażliwe powinny również znacznie ograniczyć wysiłek fizyczny na świeżym powietrzu. Odradza się wietrzenie, a okna powinny być zamknięte.',
+		info: '(51-100) Jakość powietrza jest akceptowalna i stanowi niewielkie zagrożenie dla zdrowia. Osoby starsze i wrażliwe powinny unikać aktywności na świeżym powietrzu, ponieważ mogą odczuwać dolegliwości ze strony układu oddechowego. Osoby starsze i wrażliwe powinny również znacznie ograniczyć wysiłek fizyczny na świeżym powietrzu. Odradza się wietrzenie, a okna powinny być zamknięte.',
 	},
 	{
-		index: 'Niekorzystna dla grup wrażliwych (101-150)',
+		index: 'Niekorzystna',
 		color: '#b83039',
-		info: 'Ogół społeczeństwa, a w szczególności osoby starsze i wrażliwe, są narażone na ryzyko wystąpienia podrażnień i problemów z oddychaniem. Zaleca się ograniczenie wysiłku fizycznego na świeżym powietrzu. Osoby starsze i wrażliwe powinny unikać wszelkiej aktywności na świeżym powietrzu, a na zewnątrz powinny nosić maski chroniące przed zanieczyszczeniami. Odradza się wietrzenie pomieszczeń. Jeśli jakość powietrza w pomieszczeniach jest niezdrowa, należy włączyć oczyszczacze powietrza.',
+		info: '(101-150) Ogół społeczeństwa, a w szczególności osoby starsze i wrażliwe, są narażone na ryzyko wystąpienia podrażnień i problemów z oddychaniem. Zaleca się ograniczenie wysiłku fizycznego na świeżym powietrzu. Osoby starsze i wrażliwe powinny unikać wszelkiej aktywności na świeżym powietrzu, a na zewnątrz powinny nosić maski chroniące przed zanieczyszczeniami. Odradza się wietrzenie pomieszczeń. Jeśli jakość powietrza w pomieszczeniach jest niezdrowa, należy włączyć oczyszczacze powietrza.',
 	},
 	{
-		index: 'Zła (151-200)',
+		index: 'Zła',
 		color: '#f66768',
-		info: 'Zwiększone prawdopodobieństwo niekorzystnych skutków i pogorszenia stanu serca i płuc wśród ogółu społeczeństwa - szczególnie w grupach osób starszych i wrażliwych. Wszyscy powinni unikać wysiłku fizycznego na świeżym powietrzu i nosić maski chroniące przed zanieczyszczeniami. Odradza się wietrzenie pomieszczeń. Oczyszczacze powietrza powinny być włączone.',
+		info: '(151-200) Zwiększone prawdopodobieństwo niekorzystnych skutków i pogorszenia stanu serca i płuc wśród ogółu społeczeństwa - szczególnie w grupach osób starszych i wrażliwych. Wszyscy powinni unikać wysiłku fizycznego na świeżym powietrzu i nosić maski chroniące przed zanieczyszczeniami. Odradza się wietrzenie pomieszczeń. Oczyszczacze powietrza powinny być włączone.',
 	},
 	{
-		index: 'Bardzo zła (201-300)',
+		index: 'Bardzo zła',
 		color: '#a47eba',
-		info: 'Wpływ na ogół społeczeństwa będzie zauważalny. Osoby starsze i wrażliwe będą odczuwały zmniejszoną wytrzymałość podczas wykonywania czynności. Osoby te powinny pozostać w pomieszczeniach zamkniętych i ograniczyć aktywność. Wszyscy powinni unikać ćwiczeń na świeżym powietrzu, a na zewnątrz nosić maski przeciwpyłowe. Odradza się wietrzenie pomieszczeń. Oczyszczacze powietrza powinny być włączone.',
+		info: '(201-300) Wpływ na ogół społeczeństwa będzie zauważalny. Osoby starsze i wrażliwe będą odczuwały zmniejszoną wytrzymałość podczas wykonywania czynności. Osoby te powinny pozostać w pomieszczeniach zamkniętych i ograniczyć aktywność. Wszyscy powinni unikać ćwiczeń na świeżym powietrzu, a na zewnątrz nosić maski przeciwpyłowe. Odradza się wietrzenie pomieszczeń. Oczyszczacze powietrza powinny być włączone.',
 	},
 
 	{
-		index: 'Niebezpieczna (301-500)',
+		index: 'Niebezpieczna',
 		color: '#a07785',
-		info: 'Ogół społeczeństwa i grupy wrażliwe są w grupie wysokiego ryzyka wystąpienia silnych podrażnień i niekorzystnych skutków zdrowotnych, które mogą wywołać inne choroby. Wszyscy powinni unikać wysiłku fizycznego i pozostać w pomieszczeniach zamkniętych. Wszyscy powinni unikać wysiłku fizycznego na świeżym powietrzu i zadbać o noszenie maski przeciwpyłowej na zewnątrz. Odradza się wietrzenie pomieszczeń. Oczyszczacze powietrza powinny być włączone.',
+		info: '(301-500) Ogół społeczeństwa i grupy wrażliwe są w grupie wysokiego ryzyka wystąpienia silnych podrażnień i niekorzystnych skutków zdrowotnych, które mogą wywołać inne choroby. Wszyscy powinni unikać wysiłku fizycznego i pozostać w pomieszczeniach zamkniętych. Wszyscy powinni unikać wysiłku fizycznego na świeżym powietrzu i zadbać o noszenie maski przeciwpyłowej na zewnątrz. Odradza się wietrzenie pomieszczeń. Oczyszczacze powietrza powinny być włączone.',
 	},
 ];

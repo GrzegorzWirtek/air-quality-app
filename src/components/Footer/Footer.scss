@@ -1,0 +1,47 @@
+@import '../../scss/variables.scss';
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  padding: 40px 0 20px 0;
+  margin-top: 40px;
+  background: $footer-bcg-color;
+
+  &__api{
+    text-align: center;
+    @include footer-font();
+  }
+
+  &__a{
+  @include footer-font();
+    transition: 0.1s;
+    &:hover{
+      color: rgb(200, 200, 241);
+    }
+  }
+
+  &__name{
+   @include footer-font();
+    text-align: center;
+    flex-basis: 100%;
+  }
+
+  &__icons{
+    display: flex;
+    align-content: center;
+  }
+
+  &__icon{
+    width: 22px;
+    margin: 6px;
+    filter: invert(66%) sepia(58%) saturate(1%) hue-rotate(34deg) brightness(105%) contrast(90%);
+    line-height: 1;
+
+    &--in{
+      transform: translateY(1px);
+    }
+  }
+}

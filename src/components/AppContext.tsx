@@ -6,7 +6,7 @@ export type apiDataType = {
 	aqInfo?: {
 		color?: string;
 		title?: string;
-		info?: string;
+		description?: string;
 	};
 	ts?: string;
 	hu?: string;

@@ -1,8 +1,10 @@
+import './Header.scss';
+
 const Header = () => {
 	return (
-		<>
-			<p>Header</p>
-		</>
+		<header className='header'>
+			<h1 className='header__title'>Jakość powietrza</h1>
+		</header>
 	);
 };
 
