@@ -29,7 +29,7 @@ const chooseIndex = (i: number) => {
 const getApi = async (city: string, state: string) => {
 	try {
 		const weatherDataFromAPI = await axios(
-			`http://api.airvisual.com/v2/city?city=${city}&state=${state}&country=Poland&key=${API_KEY}`,
+			`https://api.airvisual.com/v2/city?city=${city}&state=${state}&country=Poland&key=${API_KEY}`,
 		);
 		const { aqius } = weatherDataFromAPI.data.data.current.pollution; //jakość powietrza
 		const { ts, hu, ic, pr, tp, wd, ws } =

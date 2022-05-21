@@ -82,7 +82,7 @@ const Form: React.FC<PropsType> = (props) => {
 			<button tabIndex={-1} className='form__button'>
 				<img
 					tabIndex={-1}
-					src='/close-icon.svg'
+					src='close-icon.svg'
 					alt=''
 					className='form__button-img'
 				/>
