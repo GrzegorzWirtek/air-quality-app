@@ -8,7 +8,7 @@
   width: calc(100% - 16px);
   max-width: 600px;
   margin: 20px auto;
-  z-index: 1;
+  z-index: 2;
 
   &__input{
     height: $input-heigth;
@@ -47,6 +47,7 @@
   &__button-img{
     width: 100%;
     height: 100%;
+    filter: invert(69%) sepia(9%) saturate(10%) hue-rotate(335deg) brightness(88%) contrast(87%);
   }
 
   &__prompts{

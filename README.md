@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Air quality app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An application that allows the user to check the air quality in a selected Polish city. Created by using TypeScript, React, Axios and Scss.
 
-## Available Scripts
+Visit page: **[Air quality app](https://grzegorzwirtek.github.io/air-quality-app/)**
 
-In the project directory, you can run:
+## General info
 
-### `npm start`
+My first mini application using TypeScript and React. The global state is stored using the Context API. The air quality data is retrieved on the client side from **[https://api-docs.iqair.com](https://api-docs.iqair.com/)**. The application is very simple and was created as part of learning TypeScript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Project is created with:
 
-### `npm test`
+- **SCSS**
+- **react** version 18.1.0
+- **react-dom** version 18.1.0
+- **react-scripts** version 5.0.1
+- **sass** version 1.52.0
+- **gh-pages** version 4.0.0,
+- **axios** version 0.27.2,
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
 
-### `npm run build`
+Page is deployed to gh-pages: **[Air quality app](https://grzegorzwirtek.github.io/air-quality-app/)**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project can be also run locally using npm (localhost:3000):
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+$ cd ../project-name
+$ npm install
+$ npm run start
+```

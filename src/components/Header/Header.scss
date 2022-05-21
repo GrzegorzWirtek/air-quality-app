@@ -5,6 +5,8 @@
   color: white;
   height: 200px;
   background: $header-bcg-color;
+  z-index: 2;
+
   &__title{
     margin-top: 45px;
     font-size: $header-font-size;

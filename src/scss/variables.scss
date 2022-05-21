@@ -4,17 +4,6 @@
   font-weight: 300;
   line-height: 1.8;
 }
-
-$header-font-size: 1.4rem;
-// $header-bcg-color: #b4c7ee;
-$header-bcg-color: linear-gradient(159deg, rgba(106,57,124,1) 0%, rgba(33,17,38,1) 100%);
-
-$input-heigth: 40px;
-$input-border-color: grey;
-
-$aq-darken-color:  rgba(0, 0, 0, 0.278);
-$aq-padding: 12px;
-
 $main-margin-horizontal: 8px;
 $main-max-width: 1000px;
 $main-max-width-horizontal: 1020px;
@@ -23,10 +12,16 @@ $min-width: 660px;
 $medium-width: 800px;
 $max-width: 1200px;
 
+$header-font-size: 1.4rem;
+$header-bcg-color:  linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(45,38,145,1) 100%);
+
+$input-heigth: 40px;
+$input-border-color: #9a9a9a;
+
+$aq-darken-color:  rgba(0, 0, 0, 0.278);
+$aq-padding: 12px;
+
 $li-hover-bcg: rgb(191, 191, 191);
-
 $cancel-btn-bgc: rgb(255, 233, 233);
-
 $weather-bcg-color: rgb(255, 255, 208);
-
 $footer-bcg-color: linear-gradient(159deg, rgba(106,57,124,1) 0%, rgba(33,17,38,1) 100%);
